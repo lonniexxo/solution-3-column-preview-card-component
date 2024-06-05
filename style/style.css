@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 100vh;
+    margin: 150px; /* diminuira a altura dos quadrados*/
+}
+
+.conteiner__primario{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px ;
+}
+.container__secundario{
+    background-color: hsl(184, 100%, 22%);
+}
+.container__terceario{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0 ;
+}
+.margin{
+    margin: 15%;
+}
+.titulo{
+    color: #ffff;
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.paragrafo{
+    color: #ffff;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+
+.botao{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: #ffff;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.rodape{
+    text-align: center;
+}
