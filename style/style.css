@@ -10,7 +10,7 @@
 .container{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    height: 70vh;
+    height: 100vh;
     margin: 150px 150px;
 }
 
