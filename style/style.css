@@ -10,9 +10,10 @@
 .container{
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    height: 100vh;
-    margin: 150px; /* diminuira a altura dos quadrados*/
+    height: 70vh;
+    margin: 150px 150PX;
 }
+
 
 .conteiner__primario{
     background-color: hsl(31, 77%, 52%);
@@ -28,17 +29,23 @@
 .margin{
     margin: 15%;
 }
+.imagem{
+    margin-bottom: 35px;
+}
 .titulo{
     color: #ffff;
     font-family: 'Big Shoulders Display',sans-serif;
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: 35px;
 }
 .paragrafo{
     color: #ffff;
     font-family: 'Lexend Deca',sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1rem;
+    margin-bottom: 180px;
+    line-height: 27px;
 }
 
 
@@ -51,8 +58,19 @@
     background-color: #ffff;
     border-radius: 50px;
     display: inline-block;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
 }
-
+.primario{
+    color: hsl(31, 77%, 52%);
+}
+.secundario{
+    color: hsl(184, 100%, 22%);
+}
+.terceario{
+    color: hsl(179, 100%, 13%);
+}
 .rodape{
     text-align: center;
 }
