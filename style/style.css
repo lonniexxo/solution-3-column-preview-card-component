@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     height: 70vh;
-    margin: 150px 150PX;
+    margin: 150px 150PX 150px 150px;
 }
 
 
